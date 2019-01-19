@@ -3,7 +3,7 @@
         flex-direction: row;
         align-content: flex-end;
         flex-wrap: wrap;
-        padding: 25px 0px 0px 0px;
+        padding: 25px 0px 30px 0px;
         display: flex;
         justify-content: center;
         /*IMAGEN FONDO FIJA*/
@@ -91,4 +91,8 @@ i.right {
     height: 100%;
     z-index: 3;
     display: none;
+}
+
+.page-footer{
+    background: rgb(59, 59, 59);
 }
