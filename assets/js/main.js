@@ -5,9 +5,7 @@ const data = (DATA.characters)
 //Aqui se guardara todo                   Se llama root del HTML
 const containerRoot = document.getElementById('root');
 
-
-  // MOSTRANDO DATA 
-  
+// MOSTRANDO DATA PERSONAJES 
   const mostrarData = (data) => {
     let result = ''; 
     data.forEach(element => {   
@@ -28,14 +26,21 @@ const containerRoot = document.getElementById('root');
       </div>
     </div>
        `
- 
     }
     );
     return result;
     }
-
-
     window.onload = mostrarData(data);
+
+
+
+   
+
+
+
+
+
+
 
 
 
