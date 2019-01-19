@@ -13,6 +13,13 @@
     display: flex;
 }
 
+/*MENU*/
+nav .nav-wrapper {
+    background: rgb(41, 40, 40);
+    justify-content: center;
+    display: flex;
+}
+
 .card {
     width: 200px;
     height: 235px;

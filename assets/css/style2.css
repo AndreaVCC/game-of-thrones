@@ -14,9 +14,15 @@
     
 }
 
+/*MENU*/
+nav .nav-wrapper {
+    background: rgb(41, 40, 40);
+    justify-content: center;
+    display: flex;
+}
+
 /*SELECT*/
 .input-field {
-    position: relative;
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
