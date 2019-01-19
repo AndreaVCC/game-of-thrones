@@ -17,7 +17,7 @@ const mostrarData2 = (data2) => {
    </div>
  
    <div class="card-contentIcon">
-   <i class="material-icons activator">add_circle_outline</i>
+   <i class="material-icons activator">more_horiz</i>
    </div>
    <div class="card-reveal">
    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
@@ -30,3 +30,10 @@ const mostrarData2 = (data2) => {
  return result2;
  }
  window.onload = mostrarData2(data2);
+
+
+
+   /*INICIALIZA EL MATERIALIZE*/
+   document.addEventListener('DOMContentLoaded', function() {
+    window.M.AutoInit();
+  });

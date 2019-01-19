@@ -1,18 +1,32 @@
 .container-fluid {
-    margin: 2em;
-
-    flex-direction: column;
-    align-content: center;
+   
+    flex-direction: row;
+    align-content: flex-end;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 25px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.capitulos{
+    justify-content: left;
+    display: flex;
+    
+}
+
+/*SELECT*/
+.input-field {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
 }
 
 .card {
-
-position: relative;
-margin: 5px;
+width: 980px;
+height: auto;
+margin: 1rem;
 background-color: rgb(245, 234, 219);
 -webkit-transition: -webkit-box-shadow .25s;
 transition: -webkit-box-shadow .25s;
@@ -20,6 +34,7 @@ transition: box-shadow .25s;
 transition: box-shadow .25s, -webkit-box-shadow .25s;
 border-radius: 5px;  
 text-align:center;
+
 
 }
 

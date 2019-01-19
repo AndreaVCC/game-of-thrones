@@ -8,10 +8,14 @@
         justify-content: center;
 }
 
+.personajes{
+    justify-content: left;
+    display: flex;
+}
+
 .card {
     width: 200px;
     height: 235px;
-    position: relative;
     margin: 2rem;
     background-color: rgb(245, 234, 219);
     -webkit-transition: -webkit-box-shadow .25s;
