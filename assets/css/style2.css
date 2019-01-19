@@ -6,6 +6,10 @@
     padding: 25px 0px 0px 0px;
     display: flex;
     justify-content: center;
+    /*IMAGEN FONDO FIJA*/
+    background-image: url('http://subirimagen.me/uploads/20190119155742.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .capitulos{
@@ -29,11 +33,13 @@ nav .nav-wrapper {
     justify-content: center;
 }
 
+/*TARJETAS*/
 .card {
+color: rgb(116, 110, 110);
 width: 980px;
 height: auto;
 margin: 1rem;
-background-color: rgb(245, 234, 219);
+background-color: rgba(195, 195, 196, 0.582);
 -webkit-transition: -webkit-box-shadow .25s;
 transition: -webkit-box-shadow .25s;
 transition: box-shadow .25s;
@@ -49,7 +55,6 @@ display: block;
 line-height: 20px;
 margin-bottom: 0px;
 font-size: 13px;
-
 }
 
 
@@ -69,6 +74,7 @@ display: flex;
 align-content: flex-end;
 justify-content: center;
 cursor: pointer;
+color: #fff;
 }
 
 i.right {

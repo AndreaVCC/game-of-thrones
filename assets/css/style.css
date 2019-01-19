@@ -6,6 +6,10 @@
         padding: 25px 0px 0px 0px;
         display: flex;
         justify-content: center;
+        /*IMAGEN FONDO FIJA*/
+        background-image: url('http://subirimagen.me/uploads/20190119155536.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
 }
 
 .personajes{
@@ -24,7 +28,7 @@ nav .nav-wrapper {
     width: 200px;
     height: 235px;
     margin: 2rem;
-    background-color: rgb(245, 234, 219);
+    background-color: rgba(230, 230, 231, 0.123);
     -webkit-transition: -webkit-box-shadow .25s;
     transition: -webkit-box-shadow .25s;
     transition: box-shadow .25s;
