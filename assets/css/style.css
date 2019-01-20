@@ -24,6 +24,14 @@ nav .nav-wrapper {
     display: flex;
 }
 
+nav .sidenav-trigger {
+    float: left;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0px;
+}
+
 .card {
     width: 200px;
     height: 235px;
@@ -96,3 +104,4 @@ i.right {
 .page-footer{
     background: rgb(59, 59, 59);
 }
+

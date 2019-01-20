@@ -24,6 +24,13 @@ nav .nav-wrapper {
     justify-content: center;
     display: flex;
 }
+nav .sidenav-trigger {
+    float: center;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0px;
+}
 
 /*SELECT*/
 .input-field {
@@ -32,6 +39,21 @@ nav .nav-wrapper {
     display: flex;
     justify-content: center;
 }
+
+.dropdown-content {
+    background-color: rgb(235, 235, 235);
+    }
+
+    .dropdown-content li>a, .dropdown-content li>span {
+        font-size: 12px;
+        color: #080808;
+        display: block;
+        line-height: auto;
+        padding: 12px 16px;
+    }
+    .select-dropdown.dropdown-content li.selected {
+        background-color: rgba(71, 70, 70, 0.342);
+    }
 
 /*TARJETAS*/
 .card {
