@@ -36,7 +36,7 @@
 
  //FILTRADO CON TAGS
  selectTemporada.addEventListener('change', () => {
-    let condition = selectTemporada.value
+    let condition =selectTemporada.value
     let filteredTemporada = filterTemporada(data2, condition);
     
     // limpio div
@@ -69,10 +69,7 @@
 
 
 
-
-
-
-
+  
 
    /*INICIALIZA EL MATERIALIZE*/
    document.addEventListener('DOMContentLoaded', function() {
