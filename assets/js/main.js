@@ -21,8 +21,8 @@ const containerRoot = document.getElementById('root');
       <i class="material-icons activator">add_circle_outline</i>
       </div>
       <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        <span class="card-title grey-text text-darken-4">${element.actorName}<i class="material-icons right">close</i></span>
+        <p> <A href="https://es.wikipedia.org/wiki/David_Rintoul">Biografía.</A></p>
       </div>
     </div>
        `

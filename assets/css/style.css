@@ -13,7 +13,6 @@
 }
 
 
-
 /*MENU*/
 nav .nav-wrapper {
     background: rgb(41, 40, 40);
@@ -32,6 +31,13 @@ nav .sidenav-trigger {
 .center, .center-align {
     text-align: center;
     
+}
+
+/*PORTADA*/
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
 }
 
 h4 {

@@ -12,6 +12,13 @@
     background-attachment: fixed;
 }
 
+/*PORTADA*/
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
 
 
 /*MENU*/
@@ -69,7 +76,7 @@ color: rgb(116, 110, 110);
 width: 980px;
 height: auto;
 margin: 1rem;
-background-color: rgba(195, 195, 196, 0.582);
+background-color: rgba(206, 206, 209, 0.575);
 -webkit-transition: -webkit-box-shadow .25s;
 transition: -webkit-box-shadow .25s;
 transition: box-shadow .25s;
