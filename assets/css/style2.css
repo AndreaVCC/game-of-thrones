@@ -76,8 +76,10 @@ transition: box-shadow .25s;
 transition: box-shadow .25s, -webkit-box-shadow .25s;
 border-radius: 5px;  
 text-align:center;
+}
 
-
+.iconoPlay{
+    color: rgba(168, 31, 31, 0.829);
 }
 
 .card .card-content .card-title {

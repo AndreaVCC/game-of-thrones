@@ -9,14 +9,13 @@
  data2.forEach(element2 => {   
    result2 = containerRoot2.innerHTML += `
    <div class="card">
-  
    <div class="card-content">
      <span class="card-title activator grey-text text-darken-4">
-     <p clas="nombreepisodio"><h6>${element2.episodeTitle}</h6></p>
-     <p>Capítulo ${element2.episodeNum} - Temporada ${element2.seasonNum}</p>
+     <p clas="nombreepisodio"><h6>${element2.episodeTitle}</h6></p> 
+     <p>Capítulo ${element2.episodeNum} - Temporada ${element2.seasonNum}</p> 
+     <div class="iconoPlay"><i class="material-icons center">play_circle_filled</i></div>
      </span>
    </div>
- 
    <div class="card-contentIcon">
    <i class="material-icons activator">more_horiz</i>
    </div>
@@ -30,7 +29,6 @@
  );
  return result2;
  }
- 
 
 
 
